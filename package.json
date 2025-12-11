@@ -1,7 +1,7 @@
 {
     "name": "@yog4a/polymarket",
     "description": "Personal encapsulation module for polymarket",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "type": "module",
     "main": "./dist/index.cjs",
     "module": "./dist/index.mjs",
@@ -21,7 +21,7 @@
         "typescript": "^5.9.3"
     },
     "peerDependencies": {
-      "viem": "^2.41.2"
+        "viem": "^2.41.2"
     },
     "files": [
         "dist"
