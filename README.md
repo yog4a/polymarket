@@ -92,21 +92,10 @@ await sdk.splitPositions(
 );
 ```
 
-## API Reference
-
-### `PolymarketSDK`
-
-| Method | Description |
-|--------|-------------|
-| `splitPositions(params, overrides?)` | Split USDC into YES/NO tokens |
-| `mergePositions(params, overrides?)` | Merge YES/NO tokens back to USDC |
-| `redeemPositions(params, overrides?)` | Redeem winning positions after resolution |
-
 ## Links
 
 - [Polymarket](https://polymarket.com)
-- [viem Documentation](https://viem.sh)
-- [Polygon Network](https://polygon.technology)
+- [Viem](https://viem.sh)
 
 ---
 
