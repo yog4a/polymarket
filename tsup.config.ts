@@ -16,7 +16,7 @@ export default defineConfig({
     keepNames: true,
     treeshake: false,
     minify: true,
-    bundle: false,
+    bundle: true,
     dts: true,
     external: [
         'viem',
