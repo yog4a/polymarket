@@ -1,0 +1,36 @@
+{
+    "name": "@yog4a/polymarket",
+    "description": "Personal encapsulation module for polymarket",
+    "version": "0.0.1",
+    "type": "module",
+    "main": "./dist/index.cjs",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "tsup",
+        "version:patch": "pnpm version patch",
+        "version:minor": "pnpm version minor",
+        "version:major": "pnpm version major",
+        "update": "pnpm up --latest",
+        "release": "git push --follow-tags"
+    },
+    "devDependencies": {
+        "@types/node": "^24.6.2",
+        "tsup": "^8.5.0",
+        "tsx": "^4.20.6",
+        "typescript": "^5.9.3"
+    },
+    "peerDependencies": {
+      "viem": "^2.41.2"
+    },
+    "files": [
+        "dist"
+    ],
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.cjs"
+        }
+    }
+}

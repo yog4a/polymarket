@@ -1,0 +1,1 @@
+var n=Object.defineProperty;var r=(a,e)=>n(a,"name",{value:e,configurable:!0});import{createSafeMultisendTransaction as t}from"./createSafeMultisendTransaction.js";function c(a){return a.length===1?a[0]:t(a)}r(c,"aggregateTransaction");export{c as aggregateTransaction};

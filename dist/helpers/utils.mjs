@@ -1,0 +1,1 @@
+var o=Object.defineProperty;var r=(e,t)=>o(e,"name",{value:t,configurable:!0});function p(e){return`0x${e.map(t=>{const n=t.replace(/^0x/,"");return n.length%2===0?n:"0"+n}).join("")}`}r(p,"joinHexData");function u(e){return Math.ceil((e.startsWith("0x")?e.length-2:e.length)/2)}r(u,"getHexDataLength");export{u as getHexDataLength,p as joinHexData};
