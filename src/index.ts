@@ -8,7 +8,7 @@ import { mergePositions, redeemPositions, splitPositions } from "./functions/_in
 type ClientConfig = {
     publicRpcUrl: `http://${string}` | `https://${string}`;
     walletRpcUrl: `http://${string}` | `https://${string}`;  
-    walletAccountPrivateKey: Hex;
+    walletAccountPrivateKey: string;
     chain: Chain;
 };
 
